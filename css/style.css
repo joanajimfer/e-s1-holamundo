@@ -1,0 +1,260 @@
+
+/*GENERAL*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+li{
+    display: inline-block;
+}
+
+/*HEADER*/
+.hero {
+    width: 100%;
+    background-image: url(../images/team.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 421px;
+    top: 0;
+}
+
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 99;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+.nombre-grupo{
+    width: 100%;
+    background-color:#099d8d;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    color: white;
+    font-size: 16px; 
+    opacity:0.9;
+}
+
+header {
+    position:relative;
+}
+
+.nav-header{
+    background-color:#14d9c4;
+    opacity: 0.9;
+    height: 45px;
+}
+
+.lista-nav {
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .nav-item-fixed{
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 14.5px;
+    text-decoration: none;
+    font-size: 16px;
+ }
+
+.nav-item-fixed:hover{
+   color:#54585a;
+ }
+ 
+ .claim{
+     padding: 15px;
+     background-color: white;
+     color: black;
+     font-family: 'Open Sans', 'sans-serif';
+     font-weight: 600;
+     font-size: 18px;
+     position: absolute;
+     top: 387px;
+     margin-right: 15px;
+     margin-left: 15px;
+ }
+ 
+/* SECTION EQUIPO*/
+
+ main{
+     width: 100%;
+     padding-top: 99px;
+     color:#54585a;
+ }
+
+ .informacion-grupo{
+     margin: 30px;
+ }
+
+#equipo{
+     text-align: center;
+     font-size: 16px;
+ }
+ 
+ h2,h3 {
+     color: #099d8d;
+     text-align: center;
+ }
+
+ .titulo-equipo, h3{
+     margin-bottom: 15px;
+ }
+
+ .fortalezas-debilidades{
+    background-color: #f1f1f1;
+    padding-top: 0px;
+ }
+.dafo-for{
+    padding-top: 15px;
+}
+ .fortalezas{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+ }
+.debilidades{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 45px;
+}
+ .triangulo{
+    position: relative;
+    left: 50%;
+    margin-left: -15px;
+    width:0px;
+    height:0px;
+    border-left:20px solid transparent; /* izquierda flecha */
+    border-right:20px solid transparent; /* derecha flecha */
+    border-top:30px solid white; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px; 
+}
+/* QUIENES SOMOS*/
+
+#quienes-somos{
+    padding: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.imagen_beatriz{
+    width: 180px;
+    height: 180px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius:90px;
+    border:5px solid #f1f1f1;
+}
+
+.imagen_miembro{
+    width: 180px;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius:90px;
+    border:5px solid #f1f1f1;
+}
+
+.nombre_miembro{
+margin: 15px;
+}
+
+.list-participantes{
+    list-style-type: none;
+    text-align:  center;
+}
+
+.icono_social_miembro{
+        text-align:center;
+        margin-top: 15px;
+        font-size: 10px;
+}
+
+
+span { position: relative;
+        bottom:5px;
+        margin: 10px;
+}
+
+/*FOOTER*/
+
+.copyright {
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:#b8b8b9;
+    opacity: 0.5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+}
+.footer-division {
+    position: center;
+    color: #b8b8b9;
+}
+
+.foot-list {
+    list-style: none;
+    font-family: "Open Sans", bold;
+    color: #b8b8b9;
+    text-align: center;
+}
+
+.footer-img {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    }
+.logo {
+    width: 116px;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    }
+.foot-a{
+    color:  #b8b8b9;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.foot-a:hover{
+    color:#54585a;
+    }
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+}
