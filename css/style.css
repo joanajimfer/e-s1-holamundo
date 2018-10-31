@@ -17,7 +17,7 @@ li{
 }
 
 /*HEADER*/
-.hero {
+#hero {
     width: 100%;
     background-image: url(../images/team.jpg);
     background-size: cover;
@@ -47,6 +47,7 @@ li{
     color: white;
     font-size: 16px; 
     opacity:0.9;
+    text-decoration: none;
 }
 
 header {
@@ -75,10 +76,6 @@ header {
     padding-top: 14.5px;
     text-decoration: none;
     font-size: 16px;
- }
-
-.nav-item-fixed:hover{
-   color:#54585a;
  }
  
  .claim{
@@ -111,7 +108,7 @@ header {
      font-size: 16px;
  }
  
- h2,h3 {
+ .titulo-equipo, .dafo-for,.dafor-de,.title-quienes {
      color: #099d8d;
      text-align: center;
  }
@@ -249,10 +246,6 @@ span { position: relative;
     text-decoration: none;
     cursor: pointer;
 }
-
-.foot-a:hover{
-    color:#54585a;
-    }
 
 .nav-list{
     display: flex;
