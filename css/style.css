@@ -251,3 +251,26 @@ span { position: relative;
     display: flex;
     flex-direction: column;
 }
+
+/*PUNTOS REFERENCIA ENLACES*/
+
+.point-equipo{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -14%;
+  }
+
+  .point-quienes{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -4.5%;
+  }
+
+  section{
+    position: relative;
+  }
+ 
