@@ -42,11 +42,11 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.9;
 }
 .titulo{
     color: white;
     font-size: 16px; 
-    opacity:0.9;
     text-decoration: none;
 }
 
