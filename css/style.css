@@ -93,7 +93,7 @@ header {
  
 /* SECTION EQUIPO*/
 
- main{
+ .main-equipo{
      width: 100%;
      padding-top: 99px;
      color:#54585a;
@@ -274,3 +274,30 @@ span { position: relative;
     position: relative;
   }
  
+  /*PAGINA CONTACTO*/
+
+.titulo-contacto {
+    font-family: 'Rubik';
+    color: #099d8d;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.seccion-contacto{
+    text-align:center;
+    margin-top:0px;
+}
+.hero-contacto {
+    width: 100%;
+    background-image: url(../images/contacto.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 300px;
+    top: 0;
+}
+.main-contacto{
+    width: 100%;
+    color:#54585a;
+    padding-bottom: 100px;
+}
