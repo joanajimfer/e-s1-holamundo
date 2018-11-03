@@ -311,6 +311,7 @@ span { position: relative;
 
 /* SIZE TABLET*/
 @media all and (min-width:768px){
+
 /* PAGE HOME*/
 
 
@@ -318,10 +319,6 @@ span { position: relative;
 /* PAGE CONTACT*/
 
     /* header*/
-
-body{
-    height: 100%;
-}
 
 .nav-fixed {
     justify-content: space-between;
@@ -352,7 +349,7 @@ body{
     margin: auto;
 }
 
-    /* main*/
+    /* footer*/
 
 footer {
     padding: 30px;
@@ -374,4 +371,55 @@ footer {
 .foot-list{
     text-align: right;
 }
+}
+
+/* SIZE LAPTOP*/
+@media all and (min-width:1200px){
+
+    /* header*/
+
+.hero-contacto {
+        height: 400PX;
+}
+
+.titulo-contacto {
+    padding-top: 40px;
+}
+
+.nombre-grupo {
+    margin-left: 10%;
+}
+
+.nav-header {
+    margin-right: 10%;
+}
+
+    /* main*/
+.main-contacto {
+    width: 610px;
+}
+
+    /* footer*/
+
+.copy-logo {
+    margin-left: 10%;
+}
+
+.footer-menu{
+    margin-right: 10%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
