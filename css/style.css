@@ -287,7 +287,9 @@ span { position: relative;
 }
 .seccion-contacto{
     text-align:center;
+    margin: 15px;
     margin-top:0px;
+   
 }
 .hero-contacto {
     width: 100%;
@@ -302,4 +304,74 @@ span { position: relative;
     width: 100%;
     color:#54585a;
     padding-bottom: 100px;
+}
+
+
+/* MEDIAQUERIES*/
+
+/* SIZE TABLET*/
+@media all and (min-width:768px){
+/* PAGE HOME*/
+
+
+
+/* PAGE CONTACT*/
+
+    /* header*/
+
+body{
+    height: 100%;
+}
+
+.nav-fixed {
+    justify-content: space-between;
+    DISPLAY: flex;
+    align-items: center;
+    background-color: #099d8d;
+}
+.nombre-grupo {
+    width: auto;
+    margin-left: 15px;
+}
+    
+.nav-header {
+    background-color: #099d8d;
+    opacity: 0.9;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.nav-item-fixed, h1{
+    padding: 15px;
+}
+
+    /* main*/
+
+.main-contacto {
+    width: 442px;
+    margin: auto;
+}
+
+    /* main*/
+
+footer {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    display: inline-block;
+}
+
+.copy-logo, .footer-menu{
+    display: inline-block;
+}
+.foot-list{
+    text-align: right;
+}
 }
