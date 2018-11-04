@@ -314,6 +314,60 @@ span { position: relative;
 /* SIZE TABLET*/
 @media all and (min-width:768px){
 
+/* QUIENES SOMOS*/
+
+#quienes-somos{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.informacion_miembro
+{
+    margin-bottom: 15px;
+}
+.imagen_beatriz{
+    margin-right: 30px;
+    height: 205px;
+    width: 205px;
+    border-radius:103px;
+    margin-bottom: 40px;     /* para evitar que los iconos sociales caigan debajo" */
+}
+
+.imagen_miembro{
+    height: 205px;
+    width: 205px;
+    border-radius:103px;
+    margin-bottom: 40px; 
+}
+.miembro_equipo{
+    margin-bottom: 60px;
+}
+
+.alineado_izq > img{
+    float: left;
+    margin-right: 30px;    
+}
+
+.alineado_izq > p,
+.alineado_izq >.icono_social_miembro{
+    text-align: left;
+}
+.alineado_dcha > img{
+    float: right;
+    margin-left: 30px;
+}
+
+.alineado_dcha > p, 
+.alineado_dcha > h4,
+.alineado_dcha >.icono_social_miembro {
+    text-align: right;
+}
+
+.nombre_miembro{
+    text-align: left;
+}
+
+
 /* PAGE HOME*/
 
     /*footer*/
@@ -412,6 +466,7 @@ span { position: relative;
 
 @media all and (min-width:1200px){
 
+
     /* header*/
 
 .hero-contacto {
@@ -436,6 +491,33 @@ span { position: relative;
     width: 610px;
 }
 
+/* QUIENES SOMOS*/
+
+.imagen_beatriz{
+    height: 278px;
+    width: 278px;
+    border-radius:135px;
+
+}
+ .imagen_miembro{
+    height: 278px;
+    width: 278px;
+    border-radius:135px;
+ }
+ .informacion_miembro{
+     width: 439px;
+     margin-left: 278px;
+ }
+
+ .miembro_equipo{
+     width: 100%;
+ }
+
+.alineado_dcha > p{
+    text-align: right;
+    margin: 0;
+
+}
     /* footer*/
 
 
