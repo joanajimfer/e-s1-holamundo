@@ -237,7 +237,7 @@ span { position: relative;
     }
 
 .footer-logo {
-    width: 116px;
+    width: 119.5px;
     height: 45px;
     margin: 0px;
     padding: 0px;
@@ -307,7 +307,29 @@ span { position: relative;
     color:#54585a;
     padding-bottom: 100px;
 }
+.copyright-contacto{
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:#b8b8b9;
+    opacity: 0.5;
+    font-size: 14px;
+    text-align: center;
+}
 
+.foot-list-contacto{
+    display: block;
+}
+
+.main-footer-contacto{
+    text-align: center
+}
+
+.footer-logo-contact{
+    width: 119.5px;
+    height: 45px;
+    margin: 30px 30px 45px 30px;
+    }
 
 /* MEDIAQUERIES*/
 
@@ -441,10 +463,10 @@ span { position: relative;
     /* footer*/
 
 .main-footer-contacto {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 30px 30px 60px 30px;
+    position: relative;
+    text-align: justify;
+   
 }
 
 .copyright-contacto {
@@ -457,9 +479,20 @@ span { position: relative;
 .copy-logo-contacto, .footer-menu-contacto{
     display: inline-block;
 }
+
 .foot-list-contacto{
-    text-align: right;
+    display: block;
 }
+.footer-menu-contacto{
+    position: absolute;
+    right: 45px;
+    text-align: right
+}
+
+.footer-logo-contact{
+    margin: 15px 0px 0px 0px;
+    }
+
 }
 
 /* SIZE LAPTOP*/
@@ -520,20 +553,17 @@ span { position: relative;
 }
     /* footer*/
 
+ .foot-list-contacto{
+     display: block;
+ }
 
-.copy-logo-contacto {
-    margin-left: 10%;
+ .main-footer-contacto {
+    margin: 45px 10%;
+    padding: 0px;
 }
-
-.footer-menu-contacto{
-    margin-right: 10%;
-} 
-
-.footer-main {
-    margin-right: 138px;
-    margin-left:138px;
-}
-
+.footer-logo-contact{
+    margin: 15px 0px 0px 0px;
+    }
 }
 
 
