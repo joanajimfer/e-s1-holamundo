@@ -235,7 +235,8 @@ span { position: relative;
     display: flex;
     justify-content: center;
     }
-.logo {
+
+.footer-logo {
     width: 116px;
     height: 45px;
     margin: 0px;
@@ -253,6 +254,7 @@ span { position: relative;
     display: flex;
     flex-direction: column;
 }
+
 
 /*PUNTOS REFERENCIA ENLACES*/
 
@@ -314,6 +316,39 @@ span { position: relative;
 
 /* PAGE HOME*/
 
+    /*footer*/
+.footer-main {
+    position:relative;
+    margin-left:45px;
+    margin-right: 45px;
+    font-size: 14px;
+}
+
+.footer-menu {
+    position:absolute;
+    right: 0px;
+    padding-top:25px;
+}
+
+.footer-img{
+    position:absolute;
+    left: 0;
+
+}
+.footer-logo{
+    margin-top:15px;
+    padding-top:15px;
+}
+.copyright {
+    position: absolute;
+    left: 0;
+    padding-top:30px;
+}
+
+.foot-list {
+    text-align: right;
+}
+
 
 
 /* PAGE CONTACT*/
@@ -351,29 +386,30 @@ span { position: relative;
 
     /* footer*/
 
-footer {
+.main-footer-contacto {
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.copyright {
+.copyright-contacto {
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: left;
     display: inline-block;
 }
 
-.copy-logo, .footer-menu{
+.copy-logo-contacto, .footer-menu-contacto{
     display: inline-block;
 }
-.foot-list{
+.foot-list-contacto{
     text-align: right;
 }
 }
 
 /* SIZE LAPTOP*/
+
 @media all and (min-width:1200px){
 
     /* header*/
@@ -395,31 +431,27 @@ footer {
 }
 
     /* main*/
+
 .main-contacto {
     width: 610px;
 }
 
     /* footer*/
 
-.copy-logo {
+
+.copy-logo-contacto {
     margin-left: 10%;
 }
 
-.footer-menu{
+.footer-menu-contacto{
     margin-right: 10%;
+} 
+
+.footer-main {
+    margin-right: 138px;
+    margin-left:138px;
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
+
+
