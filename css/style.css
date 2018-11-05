@@ -110,7 +110,7 @@ header {
      font-size: 16px;
  }
  
- .titulo-equipo, .dafo-for,.dafor-de,.title-quienes {
+ .titulo-equipo, .dafo-for,.dafo-de,.title-quienes {
      color: #099d8d;
      text-align: center;
  }
@@ -403,7 +403,7 @@ span { position: relative;
      display: flex;
      padding-top: 45px;
      padding-bottom: 60px;
-     margin-top; 0px;
+     margin-top: 0px;
  }
  .fortalezas {
      padding-right: 15px;
@@ -414,7 +414,7 @@ span { position: relative;
  }
  .dafo-de {
      color: #099d8d;
-     margin-top; 0px;
+     margin-top: 0px;
  }
  .triangulo {
      display: none;
@@ -574,12 +574,12 @@ span { position: relative;
     height: 278px;
     width: 278px;
     border-radius:135px;
+}
 
 .footer-menu{
     margin-right: 10%;
 }
 
-}
  .imagen_miembro{
     height: 278px;
     width: 278px;
@@ -613,5 +613,12 @@ span { position: relative;
     margin: 15px 0px 0px 0px;
     }
 }
+
+
+
+
+
+
+
 
 
