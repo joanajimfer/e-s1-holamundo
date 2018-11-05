@@ -596,6 +596,11 @@ span { position: relative;
     text-align: right;
     margin: 0;
 
+.footer-main {
+    /*margin-right: 138px;
+    margin-left:138px;*/
+    width: 924px;
+    margin:auto;
 }
     /* footer*/
 
