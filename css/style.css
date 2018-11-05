@@ -149,7 +149,6 @@ header {
     font-size:0px;
     line-height:0px; 
 }
-/* QUIENES SOMOS*/
 
 #quienes-somos{
     padding: 30px;
@@ -314,7 +313,40 @@ span { position: relative;
 
 /* PAGE HOME*/
 
+.informacion-grupo {
+    margin-top: 45px;
+    margin-bottom: 60px;
+ }
+.titulo-equipo {
+     margin-top: 45px;
+     margin-bottom: 15px;
+ }
+ .fortalezas-debilidades {
+     display: flex;
+     padding-top: 45px;
+     padding-bottom: 60px;
+     margin-top; 0px;
+ }
+ .fortalezas {
+     padding-right: 15px;
+ }
+ .debilidades {
+     padding-left: 15px;
+     margin-top: 0px;
+ }
+ .dafo-de {
+     color: #099d8d;
+     margin-top; 0px;
+ }
+ .triangulo {
+     display: none;
+ }
+ .dafo-for {
+     padding-top: 0px;
+ }
 
+ /*i have a problem with the triangle because in html belongs to fortalezas section and here i need to belong to all fortalezas and debilidades section to be able to centrate, a solution could be cancel that triangle and create a new one*/
+    
 
 /* PAGE CONTACT*/
 
@@ -393,7 +425,19 @@ footer {
 .nav-header {
     margin-right: 10%;
 }
-
+    /*EQUIPO, FORT y DEB*/
+.informacion-grupo {
+    max-width: 601px;
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+}
+.fortalezas {
+    padding-right: 22px;
+}
+.debilidades {
+    padding-left: 23px; 
+}
     /* main*/
 .main-contacto {
     width: 610px;
@@ -408,7 +452,7 @@ footer {
 .footer-menu{
     margin-right: 10%;
 }
-}
+
 
 
 
