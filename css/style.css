@@ -110,7 +110,7 @@ header {
      font-size: 16px;
  }
  
- .titulo-equipo, .dafo-for,.dafor-de,.title-quienes {
+ .titulo-equipo, .dafo-for,.dafo-de,.title-quienes {
      color: #099d8d;
      text-align: center;
  }
@@ -149,7 +149,6 @@ header {
     font-size:0px;
     line-height:0px; 
 }
-/* QUIENES SOMOS*/
 
 #quienes-somos{
     padding: 30px;
@@ -237,7 +236,7 @@ span { position: relative;
     }
 
 .footer-logo {
-    width: 116px;
+    width: 119.5px;
     height: 45px;
     margin: 0px;
     padding: 0px;
@@ -307,15 +306,122 @@ span { position: relative;
     color:#54585a;
     padding-bottom: 100px;
 }
+.copyright-contacto{
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:#b8b8b9;
+    opacity: 0.5;
+    font-size: 14px;
+    text-align: center;
+}
 
+.foot-list-contacto{
+    display: block;
+}
+
+.main-footer-contacto{
+    text-align: center
+}
+
+.footer-logo-contact{
+    width: 119.5px;
+    height: 45px;
+    margin: 30px 30px 45px 30px;
+    }
 
 /* MEDIAQUERIES*/
 
 /* SIZE TABLET*/
 @media all and (min-width:768px){
 
+/* QUIENES SOMOS*/
+
+#quienes-somos{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.informacion_miembro
+{
+    margin-bottom: 15px;
+}
+.imagen_beatriz{
+    margin-right: 30px;
+    height: 205px;
+    width: 205px;
+    border-radius:103px;
+    margin-bottom: 40px;     /* para evitar que los iconos sociales caigan debajo" */
+}
+
+.imagen_miembro{
+    height: 205px;
+    width: 205px;
+    border-radius:103px;
+    margin-bottom: 40px; 
+}
+.miembro_equipo{
+    margin-bottom: 60px;
+}
+
+.alineado_izq > img{
+    float: left;
+    margin-right: 30px;    
+}
+
+.alineado_izq > p,
+.alineado_izq >.icono_social_miembro{
+    text-align: left;
+}
+.alineado_dcha > img{
+    float: right;
+    margin-left: 30px;
+}
+
+.alineado_dcha > p, 
+.alineado_dcha > h4,
+.alineado_dcha >.icono_social_miembro {
+    text-align: right;
+}
+
+.nombre_miembro{
+    text-align: left;
+}
+
+
 /* PAGE HOME*/
 
+.informacion-grupo {
+    margin-top: 45px;
+    margin-bottom: 60px;
+ }
+.titulo-equipo {
+     margin-top: 45px;
+     margin-bottom: 15px;
+ }
+ .fortalezas-debilidades {
+     display: flex;
+     padding-top: 45px;
+     padding-bottom: 60px;
+     margin-top: 0px;
+ }
+ .fortalezas {
+     padding-right: 15px;
+ }
+ .debilidades {
+     padding-left: 15px;
+     margin-top: 0px;
+ }
+ .dafo-de {
+     color: #099d8d;
+     margin-top: 0px;
+ }
+ .triangulo {
+     display: none;
+ }
+ .dafo-for {
+     padding-top: 0px;
+ }
     /*footer*/
 .footer-main {
     position:relative;
@@ -350,6 +456,8 @@ span { position: relative;
 }
 
 
+ /*i have a problem with the triangle because in html belongs to fortalezas section and here i need to belong to all fortalezas and debilidades section to be able to centrate, a solution could be cancel that triangle and create a new one*/
+    
 
 /* PAGE CONTACT*/
 
@@ -387,10 +495,10 @@ span { position: relative;
     /* footer*/
 
 .main-footer-contacto {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 30px 30px 60px 30px;
+    position: relative;
+    text-align: justify;
+   
 }
 
 .copyright-contacto {
@@ -403,14 +511,26 @@ span { position: relative;
 .copy-logo-contacto, .footer-menu-contacto{
     display: inline-block;
 }
+
 .foot-list-contacto{
-    text-align: right;
+    display: block;
 }
+.footer-menu-contacto{
+    position: absolute;
+    right: 45px;
+    text-align: right
+}
+
+.footer-logo-contact{
+    margin: 15px 0px 0px 0px;
+    }
+
 }
 
 /* SIZE LAPTOP*/
 
 @media all and (min-width:1200px){
+
 
     /* header*/
 
@@ -429,23 +549,54 @@ span { position: relative;
 .nav-header {
     margin-right: 10%;
 }
-
+    /*EQUIPO, FORT y DEB*/
+.informacion-grupo {
+    max-width: 601px;
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+}
+.fortalezas {
+    padding-right: 22px;
+}
+.debilidades {
+    padding-left: 23px; 
+}
     /* main*/
 
 .main-contacto {
     width: 610px;
 }
 
-    /* footer*/
+/* QUIENES SOMOS*/
 
-
-.copy-logo-contacto {
-    margin-left: 10%;
+.imagen_beatriz{
+    height: 278px;
+    width: 278px;
+    border-radius:135px;
 }
 
-.footer-menu-contacto{
+.footer-menu{
     margin-right: 10%;
-} 
+}
+
+ .imagen_miembro{
+    height: 278px;
+    width: 278px;
+    border-radius:135px;
+ }
+ .informacion_miembro{
+     width: 439px;
+     margin-left: 278px;
+ }
+
+ .miembro_equipo{
+     width: 100%;
+ }
+
+.alineado_dcha > p{
+    text-align: right;
+    margin: 0;
 
 .footer-main {
     /*margin-right: 138px;
@@ -453,7 +604,26 @@ span { position: relative;
     width: 924px;
     margin:auto;
 }
+    /* footer*/
 
+ .foot-list-contacto{
+     display: block;
+ }
+
+ .main-footer-contacto {
+    margin: 45px 10%;
+    padding: 0px;
 }
+.footer-logo-contact{
+    margin: 15px 0px 0px 0px;
+    }
+}
+
+
+
+
+
+
+
 
 
