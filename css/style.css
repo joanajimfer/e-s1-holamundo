@@ -394,6 +394,8 @@ span { position: relative;
 .informacion-grupo {
     margin-top: 45px;
     margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
  }
 .titulo-equipo {
      margin-top: 45px;
@@ -407,10 +409,15 @@ span { position: relative;
  }
  .fortalezas {
      padding-right: 15px;
+     padding-left: 45px;
+     width: 50%;
  }
  .debilidades {
      padding-left: 15px;
      margin-top: 0px;
+     padding-right: 45px;
+     padding-bottom: 0px;
+     width: 50%;
  }
  .dafo-de {
      color: #099d8d;
@@ -558,9 +565,22 @@ span { position: relative;
 }
 .fortalezas {
     padding-right: 22px;
+    padding-left: 0px;
+    width: 50%;
 }
 .debilidades {
-    padding-left: 23px; 
+    padding-left: 23px;
+    padding-right: 0px;
+    width: 50%; 
+}
+.fortalezas-debilidades {
+    width: 924px;
+    margin: auto;
+}
+.fondo-fort-deb {
+    background-color: #f1f1f1;
+    padding-left: 45px;
+    padding-right: 45px;
 }
     /* main*/
 
