@@ -448,8 +448,10 @@ span { position: relative;
 } 
 
 .footer-main {
-    margin-right: 138px;
-    margin-left:138px;
+    /*margin-right: 138px;
+    margin-left:138px;*/
+    width: 924px;
+    margin:auto;
 }
 
 }
