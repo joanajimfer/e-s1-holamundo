@@ -274,3 +274,88 @@ span { position: relative;
     position: relative;
   }
  
+  @media all and (min-width: 768px) 
+  
+  {
+
+.nav-fixed {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #099d8d;       
+    height:60px;
+    margin-right: 45px;
+}
+
+    .nav-header {
+        background-color:#099d8d;
+        
+    }
+
+    .nombre-grupo{
+        width: 50%;
+    
+    }
+
+    .titulo{ 
+        margin-left: 15px;
+    }
+
+    .lista-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 45px;   
+    }
+
+
+    }
+    .claim{
+        padding: 15px 30px;
+        position: absolute;
+        top: 355px;
+        width: 441px;
+        margin-left: 45px;
+    }
+  }
+
+  @media all and (min-width: 1200px)
+
+  {
+
+    .nav-fixed {
+        justify-content: space-between;
+        DISPLAY: flex;
+        align-items: center;
+        background-color: #099d8d;       
+        height:60px;
+    }
+    .hero {
+        width: 924px;
+        margin: auto;
+    }
+    .nav-header {
+    background-color:#099d8d;
+    }
+
+    .nombre-grupo{
+    width: 50%;
+    }
+
+    .lista-nav 
+    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 45px;   
+    }
+
+    .claim{
+    padding: 15px 30px;
+    position: absolute;
+    top: 484px;
+    width: 441px;
+    margin-left: 45px;
+
+    }
+}
