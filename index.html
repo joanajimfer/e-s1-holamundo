@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hola mundo</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
    
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <ul class="lista-nav">
                     <li><a class="nav-item-fixed" href="#s1">EQUIPO</a></li>
                     <li><a class="nav-item-fixed" href="#s2">QUIÉNES SOMOS</a></li>
-                    <li><a class="nav-item-fixed" href="">CONTACTO</a></li>
+                    <li><a class="nav-item-fixed" href="pages/contacto.html">CONTACTO</a></li>
                 </ul>            
             </nav>
         </div>
@@ -31,7 +32,7 @@
                 </div>
             </header>
     </div>
-    <main>
+    <main class="main-equipo">
         <section id="equipo">
             <div id="s1" class="point-equipo"></div>
             <section class="informacion-grupo">
@@ -40,6 +41,7 @@
                     Somos un grupo de mujeres con una gran experiencia en el área social, la comunicación, la investigación y hasta la hostelería...
                  </p><br><p>Ahora estamos en proceso de convertirnos en programadoras front - end profesionales, disfrutamos del camino y gracias a Adalab creemos en el futuro.</p>
             </section>
+            
             <section class="fortalezas-debilidades">
             <section class="fortalezas">
                 <div class="triangulo"></div>
@@ -62,7 +64,7 @@
             <h2 class="title-quienes">QUIÉNES SOMOS</h2>
             <div class="participantes">
                 <ul class="list-participantes">
-                    <li class="miembro_equipo">
+                    <li class="miembro_equipo alineado_izq">
                         <img class="imagen_beatriz" src="images/beatriz.png" alt="foto Beatriz">
                         <h4 class="nombre_miembro">Beatriz García</h4>
                         <p class="informacion_miembro">Siempre he creído que la comunicación mueve el mundo. 
@@ -79,7 +81,7 @@
                               <li> <a href="mailto: beatrizgarcia.jim@gmail.com"> <i class="fas fa-envelope fa-2x" style="color:#099d8d"></i></i></a> </li> 
              
                         </ul>
-                    <li class="miembro_equipo">
+                    <li class="miembro_equipo alineado_dcha">
                         <img class="imagen_miembro" src="images/clara.png" alt="foto Clara">
                         <h4 class="nombre_miembro">Clara Harguindey</h4>
                         <p class="informacion_miembro">Si “cualquier tecnología suficientemente avanzada es indistinguible de la magia” 
@@ -96,7 +98,7 @@
                               <li> <a href="mailto: @gmail.com"> <i class="fas fa-envelope fa-2x" style="color:#099d8d"></i></i></a> </li> 
                         </ul>
                     </li>
-                    <li class="miembro_equipo">
+                    <li class="miembro_equipo alineado_izq">
                         <img class="imagen_miembro" src="images/joana.png" alt="foto Joana">
                         <h4 class="nombre_miembro">Joana Jiménez</h4>
                         <p class="informacion_miembro">Mi experiencia como veterinaria en urgencias me ha enseñado  a lidiar con la presión en el trabajo. 
@@ -113,7 +115,7 @@
                               <li> <a href="mailto: joanajimfer@gmail.com"> <i class="fas fa-envelope fa-2x" style="color:#099d8d"></i></i></a> </li> 
                         </ul>
                     </li>
-                    <li class="miembro_equipo">
+                    <li class="miembro_equipo alineado_dcha">
                         <img class="imagen_miembro" src="images/mayte.png" alt="foto Mayte">
                         <h4 class="nombre_miembro">Maria Teresa Martínez</h4>
                         <p class="informacion_miembro">Soy de Cartagena, y llevo dos años viviendo en Madrid. 
@@ -129,7 +131,7 @@
                               <li> <a href="mailto: mariateresa.martinez.ibanez@gmail.com"> <i class="fas fa-envelope fa-2x" style="color:#099d8d"></i></i></a> </li> 
                         </ul>
                     </li>
-                    <li class="miembro_equipo">
+                    <li class="miembro_equipo alineado_izq">
                         <img class="imagen_miembro" src="images/patricia.png" alt="foto Patricia">
                         <h4 class="nombre_miembro">Patricia Muñoz</h4>
                         <p class="informacion_miembro">Ingeniera de materiales con experiencia en investigación reinventándome a programadora. 
@@ -149,8 +151,11 @@
             </div>
         </section>
     </main>
-    <footer>
-        <hr class="footer-division">
+
+
+    <hr class="footer-division">
+
+    <footer class="footer-main">
         <div class="copyright">Hola Mundo &copy; 2018</div> 
         <nav class="footer-menu">
             <ul class="nav-list">
@@ -160,7 +165,7 @@
             </ul>
         </nav>
         <div class="footer-img">
-            <img class="logo" src="images/logo-adalab.png" alt="Logo-adalab">
+            <img class="footer-logo" src="images/logo-adalab.png" alt="Logo-adalab">
         </div>
     </footer>
 </body>
