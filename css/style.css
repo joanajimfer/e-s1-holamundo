@@ -118,7 +118,19 @@ header {
    background-color: #f1f1f1;
    padding-top: 0px;
 }
-
+.triangulo2 {
+    display: none;
+    position: relative;
+   left: 50%;
+   margin-left: -15px;
+   width:0px;
+   height:0px;
+   border-left:20px solid transparent; /* izquierda flecha */
+   border-right:20px solid transparent; /* derecha flecha */
+   border-top:20px solid red; /* base flecha y color*/
+   font-size:0px;
+   line-height:0px; 
+}
 .dafo-for{
    padding-top: 15px;
 }
@@ -142,7 +154,7 @@ header {
    height:0px;
    border-left:20px solid transparent; /* izquierda flecha */
    border-right:20px solid transparent; /* derecha flecha */
-   border-top:30px solid white; /* base flecha y color*/
+   border-top:20px solid white; /* base flecha y color*/
    font-size:0px;
    line-height:0px; 
 }
@@ -390,6 +402,7 @@ span { position: relative;
      padding-bottom: 60px;
      margin-top: 0px;
  }
+ 
  .fortalezas {
      padding-right: 15px;
      padding-left: 45px;
@@ -411,6 +424,20 @@ span { position: relative;
  }
  .dafo-for {
      padding-top: 0px;
+ }
+ .triangle {
+    position: relative;
+    left: 50%;
+    margin-left: -15px;
+    width:0px;
+    height:0px;
+    border-left:20px solid transparent; /* izquierda flecha */
+    border-right:20px solid transparent; /* derecha flecha */
+    border-top:20px solid white; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    z-index: 10;
+    top: 20px;
  }
 
  * QUIENES SOMOS*/
@@ -600,6 +627,9 @@ span { position: relative;
     background-color: #f1f1f1;
     padding-left: 45px;
     padding-right: 45px;
+}
+.triangle {
+    top: 0px;
 }
 
 /*QUINES SOMOS LAPTOP*/
