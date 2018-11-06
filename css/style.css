@@ -516,7 +516,6 @@ span { position: relative;
     
 .nav-header {
     background-color: #099d8d;
-    opacity: 0.9;
     height: 100%;
     margin-right: 15px;
 }
@@ -569,6 +568,7 @@ span { position: relative;
 /* RESPONSIVE LAPTOP------------------------------------------------------------*/
 @media all and (min-width:1200px){
 /*nav*/
+
 
 .container-laptop{
     width: 924px;
@@ -628,6 +628,10 @@ span { position: relative;
     /* footer contact------------------------*/
      /* header*/
 
+     .titulo{ 
+        margin-left: 0px;
+        padding-left: 0px;
+    }
      .hero-contacto {
         height: 400px;
     }
@@ -640,8 +644,17 @@ span { position: relative;
     margin-left: 0%;
     }
     
+
     .nav-header {
-    margin-right: 10%;
+        margin-right: 0%;
+    }
+
+    .contnab{
+        width: 924px;
+        margin: auto;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
     }
     /* main*/
     
@@ -674,6 +687,8 @@ span { position: relative;
     /* footer contact------------------------*/
      /* header*/
 
+     
+
      .hero-contacto {
         height: 400px;
     }
@@ -687,8 +702,9 @@ span { position: relative;
     }
     
     .nav-header {
-    margin-right: 10%;
+    margin-right: 0%;
     }
+
     /* main*/
     
     .main-contacto {
