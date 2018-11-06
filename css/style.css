@@ -38,12 +38,11 @@ li{
 }
 .nombre-grupo{
     width: 100%;
-    background-color:#099d8d;
+    background-color:rgba(9, 157, 141, 0.9);
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.9;
 }
 .titulo{
     color: white;
@@ -56,8 +55,7 @@ header {
 }
 
 .nav-header{
-    background-color:#14d9c4;
-    opacity: 0.9;
+    background-color:rgba(20, 217, 196, 0.9);
     height: 45px;
 }
 
@@ -277,6 +275,91 @@ span { position: relative;
     position: relative;
   }
  
+  @media all and (min-width: 768px) 
+  
+  {
+
+.nav-fixed {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #099d8d;       
+    height:60px;
+    margin-right: 45px;
+}
+
+    .nav-header {
+        background-color:#099d8d;
+        
+    }
+
+    .nombre-grupo{
+        width: 50%;
+    
+    }
+
+    .titulo{ 
+        margin-left: 15px;
+    }
+
+    .lista-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 45px;   
+    }
+
+
+    }
+    .claim{
+        padding: 15px 30px;
+        position: absolute;
+        top: 355px;
+        width: 441px;
+        margin-left: 45px;
+    }
+  }
+
+  @media all and (min-width: 1200px)
+
+  {
+
+    .nav-fixed {
+        justify-content: space-between;
+        DISPLAY: flex;
+        align-items: center;
+        background-color: #099d8d;       
+        height:60px;
+    }
+    .hero {
+        width: 924px;
+        margin: auto;
+    }
+    .nav-header {
+    background-color:#099d8d;
+    }
+
+    .nombre-grupo{
+    width: 50%;
+    }
+
+    .lista-nav 
+    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 45px;   
+    }
+
+    .claim{
+    padding: 15px 30px;
+    position: absolute;
+    top: 484px;
+    width: 441px;
+    margin-left: 45px;
+
+    }
+}
   /*PAGINA CONTACTO*/
 
 .titulo-contacto {
@@ -616,8 +699,13 @@ span { position: relative;
 
 .alineado_dcha > p{
     text-align: right;
-    margin: 0;
+    margin: 0; }
 
+.footer-main {
+    /*margin-right: 138px;
+    margin-left:138px;*/
+    width: 924px;
+    margin:auto;
 }
     /* footer*/
 
@@ -626,8 +714,9 @@ span { position: relative;
  }
 
  .main-footer-contacto {
-    margin: 45px 10%;
-    padding: 0px;
+        width: 924px;
+        margin: auto;
+        padding: 30px 0 60px 0;
 }
 .footer-logo-contact{
     margin: 15px 0px 0px 0px;
