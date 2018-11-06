@@ -529,6 +529,13 @@ span { position: relative;
 /* CONTACT RESPONSIVE TABLET*/
 
  /* header*/
+ .contnab{
+    width: 924px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
 
  .nav-fixed {
     justify-content: space-between;
@@ -679,13 +686,7 @@ span { position: relative;
         margin-right: 0%;
     }
 
-    .contnab{
-        width: 924px;
-        margin: auto;
-        height: 60px;
-        display: flex;
-        justify-content: space-between;
-    }
+  
     /* main*/
     
     .main-contacto {
