@@ -332,10 +332,13 @@ span { position: relative;
         background-color: #099d8d;       
         height:60px;
     }
-    .hero {
+    #hero {
         width: 924px;
         margin: auto;
     }
+    
+  
+
     .nav-header {
     background-color:#099d8d;
     }
@@ -357,7 +360,7 @@ span { position: relative;
     position: absolute;
     top: 484px;
     width: 441px;
-    margin-left: 45px;
+    margin-left: 138px;
 
     }
 }
@@ -713,4 +716,3 @@ span { position: relative;
 
 
 
->>>>>>> e9e2caf5378aa725400cf2aaf9289e5b1abcc0e3
