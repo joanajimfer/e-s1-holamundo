@@ -274,11 +274,10 @@ span { position: relative;
   section{
     position: relative;
   }
+
  
-<<<<<<< HEAD
-  @media all and (min-width: 768px) 
-  
-  {
+/* HEAD*/
+@media all and (min-width: 768px) {
 
 .nav-fixed {
     justify-content: space-between;
@@ -310,8 +309,6 @@ span { position: relative;
         margin-right: 45px;   
     }
 
-
-    }
     .claim{
         padding: 15px 30px;
         position: absolute;
@@ -337,8 +334,6 @@ span { position: relative;
         margin: auto;
     }
     
-  
-
     .nav-header {
     background-color:#099d8d;
     }
@@ -361,10 +356,8 @@ span { position: relative;
     top: 484px;
     width: 441px;
     margin-left: 138px;
-
     }
 }
-=======
   /*PAGINA CONTACTO*/
 
 .titulo-contacto {
