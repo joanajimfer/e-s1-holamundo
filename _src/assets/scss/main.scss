@@ -572,12 +572,7 @@ span { position: relative;
 }
     
 .nav-header {
-<<<<<<< HEAD
-    background-color: #099d8d;
-    opacity: 0.9;
-=======
-    background-color:rgba(0,0,0,0);
->>>>>>> a0dd76fd7417d5550e6d6f8bf3ddd1fc8b6ca31a
+    background-color: rgba (0,0,0,0);
     height: 100%;
     margin-right: 15px;
 }
@@ -657,6 +652,10 @@ header {
     margin: auto;
     position: relative;
     bottom: 35px;
+}
+
+.claim { 
+    margin-left: 0px;
 }
 
 /* HOME- EQUIPO, FORT y DEB*/
