@@ -32,10 +32,12 @@ li{
     z-index: 99;
     font-family: 'Rubik';
     font-weight: 500;
+    background-color: rgba(9, 157, 141, 0.9);
 }
+
 .nombre-grupo{
     width: 100%;
-    background-color:rgba(9, 157, 141, 0.9);
+    font-size: 16px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -45,6 +47,8 @@ li{
     color: white;
     font-size: 16px; 
     text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 500;
 }
 
 header {
@@ -93,7 +97,7 @@ header {
 
     width: 100%;
     padding-top: 99px;
-    color:#54585a;
+
 }
 
 .informacion-grupo{
@@ -105,9 +109,20 @@ header {
     font-size: 16px;
 }
 
-.titulo-equipo, .dafo-for,.dafo-de,.title-quienes {
+.titulo-equipo, .title-quienes {
     color: #099d8d;
     text-align: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+}
+.dafo-for,.dafo-de {
+    color: #099d8d;
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    
 }
 
 .titulo-equipo, h3{
@@ -138,6 +153,7 @@ header {
 .fortalezas{
    padding-left: 30px;
    padding-right: 30px;
+   color:#54585a;
    
 }
 .debilidades{
@@ -145,6 +161,7 @@ header {
    padding-left: 30px;
    padding-right: 30px;
    padding-bottom: 45px;
+   color: #54585a;
 }
 .triangulo{
    position: relative;
@@ -187,10 +204,17 @@ header {
     border:5px solid #f1f1f1;
 }
 
+
 .nombre_miembro{
-margin: 15px;
+    margin: 15px;
+    color:black;
+    font-size:20px;
 }
 
+.informacion-miembro{
+    color: #54585a;
+    font-size: 16px;
+}
 .list-participantes{
     list-style-type: none;
     text-align:  center;
@@ -214,7 +238,6 @@ span { position: relative;
     padding-top: 30px;
     padding-bottom: 20px;
     color:#b8b8b9;
-    opacity: 0.5;
     font-size: 14px;
     text-align: center;
 }
@@ -233,6 +256,7 @@ span { position: relative;
     font-family: "Open Sans", bold;
     color: #b8b8b9;
     text-align: center;
+    font-size: 14px;
 }
 
 .footer-img {
@@ -343,7 +367,7 @@ span { position: relative;
 /* SIZE TABLET*----------------------------------------------------------*/
 @media all and (min-width:768px){
 
-    /*HEAD TABLET*/
+    /*HEADER TABLET*/
 
     .contnab { 
         width: 100%;
@@ -386,6 +410,7 @@ span { position: relative;
             top: 355px;
             width: 441px;
             margin-left: 45px;
+            background-color: rgba(255,255,255,0.8);
         }
 
          
@@ -539,7 +564,7 @@ span { position: relative;
     justify-content: space-between;
     DISPLAY: flex;
     align-items: center;
-    background-color: #099d8d;
+    background-color: rgba(9, 157, 141, 0.9);
 }
 .nombre-grupo {
     width: auto;
@@ -547,8 +572,12 @@ span { position: relative;
 }
     
 .nav-header {
+<<<<<<< HEAD
     background-color: #099d8d;
     opacity: 0.9;
+=======
+    background-color:rgba(0,0,0,0);
+>>>>>>> a0dd76fd7417d5550e6d6f8bf3ddd1fc8b6ca31a
     height: 100%;
     margin-right: 15px;
 }
@@ -578,6 +607,8 @@ span { position: relative;
     padding-bottom: 0px;
     text-align: left;
     display: inline-block;
+    font-size:14px;
+    color:#b8b8b9;
 }
 
 .copy-logo-contacto, .footer-menu-contacto{
