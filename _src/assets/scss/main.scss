@@ -274,13 +274,16 @@ span { position: relative;
     margin: 0px;
     padding: 0px;
     }
-.foot-a{
-    color:  #b8b8b9;
-    font-weight: bold;
-    padding: 0;
-    text-decoration: none;
-    cursor: pointer;
-}
+    
+.foot-a {
+        display: inline-block;
+        color: #b8b8b9;
+        font-weight: bold;
+        padding: 0;
+        text-decoration: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
 
 .nav-list{
     display: flex;
@@ -385,15 +388,11 @@ span { position: relative;
         height:60px;
         margin-right: 45px;
     }
-    
-        .nav-header {
-            background-color:#099d8d;
-            
-        }
-    
+    .nav-header {
+        background-color: rgba(20, 217, 196, 0);
+    }
         .nombre-grupo{
             width: 50%;
-        
         }
 
         .lista-nav {
