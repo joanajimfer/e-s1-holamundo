@@ -1,0 +1,181 @@
+.main-equipo{
+
+    width: 100%;
+    padding-top: 99px;
+
+}
+
+.informacion-grupo{
+    margin: 30px;
+}
+
+#equipo{
+    text-align: center;
+    font-size: 16px;
+}
+
+.titulo-equipo, .title-quienes {
+    color: #099d8d;
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+}
+.dafo-for,.dafo-de {
+    color: #099d8d;
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+.titulo-equipo, h3{
+    margin-bottom: 15px;
+}
+
+.fortalezas-debilidades{
+   background-color: #f1f1f1;
+   padding-top: 0px;
+}
+.triangulo2 {
+    display: none;
+    position: relative;
+   left: 50%;
+   margin-left: -15px;
+   width:0px;
+   height:0px;
+   border-left:20px solid transparent; /* izquierda flecha */
+   border-right:20px solid transparent; /* derecha flecha */
+   border-top:20px solid red; /* base flecha y color*/
+   font-size:0px;
+   line-height:0px; 
+}
+.dafo-for{
+   padding-top: 15px;
+}
+
+.fortalezas{
+   padding-left: 30px;
+   padding-right: 30px;
+   color:#54585a;
+   
+}
+.debilidades{
+   margin-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 45px;
+   color: #54585a;
+}
+.triangulo{
+   position: relative;
+   left: 50%;
+   margin-left: -15px;
+   width:0px;
+   height:0px;
+   border-left:20px solid transparent; /* izquierda flecha */
+   border-right:20px solid transparent; /* derecha flecha */
+   border-top:20px solid white; /* base flecha y color*/
+   font-size:0px;
+   line-height:0px; 
+}
+
+#quienes-somos{
+   padding: 30px;
+   padding-bottom: 45px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+//MAIN-EQUIPO PARA TABLET//
+@media all and (min-width:768px){  
+
+    .informacion-grupo {
+        margin-top: 45px;
+        margin-bottom: 60px;
+        margin-left: 45px;
+        margin-right: 45px;
+        }
+    .titulo-equipo {
+        margin-top: 45px;
+        margin-bottom: 15px;
+        }
+    .fortalezas-debilidades {
+        display: flex;
+        padding-top: 45px;
+        padding-bottom: 60px;
+        margin-top: 0px;
+        }
+
+    .fortalezas {
+        padding-right: 15px;
+        padding-left: 45px;
+        width: 50%;
+        }
+    .debilidades {
+        padding-left: 15px;
+        margin-top: 0px;
+        padding-right: 45px;
+        padding-bottom: 0px;
+        width: 50%;
+        }
+    .dafo-de {
+        color: #099d8d;
+        margin-top: 0px;
+        }
+    .triangulo {
+        display: none;
+        }
+    .dafo-for {
+        padding-top: 0px;
+        }
+    .triangle {
+        position: relative;
+        left: 50%;
+        margin-left: -15px;
+        width:0px;
+        height:0px;
+        border-left:20px solid transparent; /* izquierda flecha */
+        border-right:20px solid transparent; /* derecha flecha */
+        border-top:20px solid white; /* base flecha y color*/
+        font-size:0px;
+        line-height:0px;
+        z-index: 10;
+        top: 20px;
+        }
+    }
+
+//MAIN-EQUIPO PARA LAPTOP//
+ @media all and (min-width:1200px){
+
+        .informacion-grupo {
+            max-width: 601px;
+            position: relative;
+            left: 50%;
+            margin-left: -300px;
+        }
+        .fortalezas {
+            padding-right: 22px;
+            padding-left: 0px;
+            width: 50%;
+        }
+        .debilidades {
+            padding-left: 23px;
+            padding-right: 0px;
+            width: 50%; 
+        }
+        .fortalezas-debilidades {
+            width: 924px;
+            margin: auto;
+        }
+        .fondo-fort-deb {
+            background-color: #f1f1f1;
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+        .triangle {
+            top: 0px;
+        }
+    }   

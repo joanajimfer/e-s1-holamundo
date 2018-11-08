@@ -1,0 +1,94 @@
+.copyright {
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:#b8b8b9;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+}
+.footer-division {
+    position: center;
+    color: #b8b8b9;
+}
+
+.foot-list {
+    list-style: none;
+    font-family: "Open Sans", bold;
+    color: #b8b8b9;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-img {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    }
+
+.footer-logo {
+    width: 119.5px;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+.foot-a {
+        display: inline-block;
+        color: #b8b8b9;
+        font-weight: bold;
+        padding: 0;
+        text-decoration: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+}
+
+//FOOTER PARA TABLET//
+@media all and (min-width:768px){  
+
+    .footer-main {
+        position:relative;
+        margin-left:45px;
+        margin-right: 45px;
+        font-size: 14px;
+    }
+    
+    .footer-menu {
+        position:absolute;
+        right: 0px;
+        padding-top:25px;
+    }
+    
+    .footer-img{
+        position:absolute;
+        left: 0;
+    
+    }
+
+    .footer-logo{
+        margin-top:15px;
+        padding-top:15px;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 0;
+        padding-top:30px;
+    }
+    
+    .foot-list {
+        text-align: right;
+    }
+}

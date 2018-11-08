@@ -1,0 +1,124 @@
+.imagen_beatriz{
+    width: 180px;
+    height: 180px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius:90px;
+    border:5px solid #f1f1f1;
+}
+
+.imagen_miembro{
+    width: 180px;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius:90px;
+    border:5px solid #f1f1f1;
+}
+
+
+.nombre_miembro{
+    margin: 15px;
+    color:black;
+    font-size:20px;
+}
+
+.informacion-miembro{
+    color: #54585a;
+    font-size: 16px;
+}
+.list-participantes{
+    list-style-type: none;
+    text-align:  center;
+}
+
+.icono_social_miembro{
+        text-align:center;
+        margin-top: 15px;
+        font-size: 10px;
+}
+
+span { position: relative;
+        bottom:5px;
+        margin: 10px;
+}
+
+//MAIN-QUINESSOMOS PARA TABLET//
+
+@media all and (min-width:768px){  
+
+   #quienes-somos{
+       margin-top: 45px;
+       margin-bottom: 45px;
+        }
+   
+   .informacion_miembro {
+       margin-bottom: 15px;
+        }
+   .imagen_beatriz{
+       margin-right: 30px;
+       height: 205px;
+       width: 205px;
+       border-radius:103px;
+       margin-bottom: 40px;     /* para evitar que los iconos sociales caigan debajo" */
+   }
+   
+   .imagen_miembro{
+       height: 205px;
+       width: 205px;
+       border-radius:103px;
+       margin-bottom: 40px; 
+        }
+   .miembro_equipo{
+       margin-bottom: 60px;
+        }
+   
+   .alineado_izq > img{
+       float: left;
+       margin-right: 30px;    
+        }
+   
+   .alineado_izq > p,
+   .alineado_izq >.icono_social_miembro{
+       text-align: left;
+        }
+   .alineado_dcha > img{
+       float: right;
+       margin-left: 30px;
+        }
+   
+   .alineado_dcha > p, 
+   .alineado_dcha > h4,
+   .alineado_dcha >.icono_social_miembro {
+       text-align: right;
+        }
+   
+   .nombre_miembro{
+       text-align: left;
+        }
+    }
+
+//QUINES SOMOS PARA LAPTOP//
+
+@media all and (min-width:1200px){
+
+    .list-participantes{
+        width: 924px;
+        margin: auto;
+    }
+    
+    .imagen_beatriz, .imagen_miembro{
+        height: 278px;
+        width:278px;
+        border-radius: 135px;
+    }
+    
+    .informacion_miembroz{
+        max-width: 439px;
+        margin: auto;
+    }
+    
+    .miembro_equipo{
+        width: 100%;
+    }
+}   
