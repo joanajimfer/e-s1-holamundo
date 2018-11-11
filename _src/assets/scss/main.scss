@@ -1,51 +1,37 @@
+//mixing//
+@import 'core/mixins';
+
+//variables//
+@import 'core/variables';
+
+
+
 //GENERAL//
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
 }
 
-li{
-    display: inline-block;
+li {
+  display: inline-block;
 }
-
-/*PUNTOS REFERENCIA ENLACES*/
-
-.point-equipo{
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 0;
-    top: -14%;
-  }
-
-  .point-quienes{
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 0;
-    top: -4.5%;
-  }
-
-  section{
-    position: relative;
-  }
 
 
 //HEADER//
-@import 'layout/header'; 
+@import 'layout/header';
 
 //MAIN-EQUIPO//
-@import 'layout/mainequipo'; 
+@import 'layout/mainTeam';
 
 //MAIN-MIEMBROS
-@import 'layout/mainquienessomos';
+@import 'layout/whoWeAre';
 
 //FOOTER//
 @import 'layout/footer';
@@ -56,13 +42,27 @@ li{
 
 
 
+/*points reference links*/
 
+.point-team {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: -14%;
+}
 
+.point-whoWeAre {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: -4.5%;
+}
 
-
-
-
-
+section {
+  position: relative;
+}
 
 
 

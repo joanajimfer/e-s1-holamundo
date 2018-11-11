@@ -1,0 +1,191 @@
+.main-equipo {
+  width: 100%;
+  padding-top: 99px;
+}
+
+.information-group {
+  margin: 30px;
+}
+
+#team {
+  text-align: center;
+  font-size: 16px;
+}
+
+.title-team,
+.woWeAre__title {
+  color: $MainLettersColor;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.strengths-part,
+.weaknesses-part {
+  color: $MainLettersColor;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.title-team,
+h3 {
+  margin-bottom: 15px;
+}
+
+.stren-weak{
+  background-color: $MainSoftColor;
+  padding-top: 0px;
+}
+
+.strengths-part{
+  padding-top: 15px;
+}
+
+.strengths {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: $MainLetter;
+}
+
+.weaknesses {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+  color:$MainLetter;
+}
+
+.triangulo {
+  position: relative;
+  left: 50%;
+  margin-left: -15px;
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  /* left arrow */
+  border-right: 20px solid transparent;
+  /* right arrow */
+  border-top: 20px solid white;
+  /* base arrow and color*/
+  font-size: 0px;
+  line-height: 0px;
+}
+
+#woWeAre {
+  padding: 30px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+//MAIN-team for TABLET//
+@media all and (min-width:768px) {
+
+  .main-equipo{
+    padding:0;
+  }
+
+  .information-group {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .title-team{
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+
+  .stren-weak {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    margin-top: 0px;
+  }
+
+  .strengths {
+    padding-right: 15px;
+    padding-left: 45px;
+    width: 50%;
+  }
+
+  .weaknesses {
+    padding-left: 15px;
+    margin-top: 0px;
+    padding-right: 45px;
+    padding-bottom: 0px;
+    width: 50%;
+  }
+
+  .weaknesses-part {
+    color: $MainLettersColor;
+    margin-top: 0px;
+  }
+
+  .triangulo {
+    display: none;
+  }
+
+  .strengths-part {
+    padding-top: 0px;
+  }
+
+  .triangle {
+    position: relative;
+    left: 50%;
+    margin-left: -15px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    /* left arrow */
+    border-right: 20px solid transparent;
+    /* right arrow */
+    border-top: 20px solid white;
+    /* base arrow and color*/
+    font-size: 0px;
+    line-height: 0px;
+    z-index: 10;
+    top: 20px;
+  }
+}
+
+//MAIN-EQUIPO FOR LAPTOP//
+@media all and (min-width:1200px) {
+
+  .information-group{
+    max-width: 601px;
+    margin: 45px auto 60px;
+  }
+
+  .strengths{
+    padding-right: 22px;
+    padding-left: 0px;
+    width: 50%;
+  }
+
+  .weaknesses {
+    padding-left: 23px;
+    padding-right: 0px;
+    width: 50%;
+  }
+
+  .stren-weak {
+    width: 924px;
+    margin: auto;
+  }
+
+  .back-stren-weak {
+    background-color: #f1f1f1;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .triangle {
+    top: 0px;
+  }
+}

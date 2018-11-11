@@ -1,0 +1,128 @@
+.image_beatriz {
+  width: 180px;
+  height: 180px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 90px;
+  border: 5px solid #f1f1f1;
+}
+
+.image-member {
+  @include memberImage;
+}
+
+.name-member {
+  margin: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.information-member {
+  color: $MainLetter;
+  font-size: 16px;
+}
+
+.list-member {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social-icon_member {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+span {
+  position: relative;
+  bottom: 5px;
+  margin: 10px;
+}
+
+//MAIN-WHOWEARE for TABLET//
+
+@media all and (min-width:768px) {
+
+  #woWeAre {
+    padding: 0 30px 0 30px;
+  }
+
+  .woWeAre__title {
+    margin: 45px 0 45px 0;
+  }
+
+  .information-member {
+    margin-bottom: 15px;
+  }
+
+  .image_beatriz {
+    margin-right: 30px;
+    height: 205px;
+    width: 205px;
+    border-radius: 103px;
+    margin-bottom: 40px;
+    /* para evitar que los iconos sociales caigan debajo" */
+  }
+
+  .image-member {
+    height: 205px;
+    width: 205px;
+    border-radius: 103px;
+    margin-bottom: 0px;
+  }
+
+  .member_team {
+    margin-bottom: 60px;
+  }
+
+  .alineado_izq>img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+
+  .alineado_izq>p,
+  .alineado_izq>.social-icon_member {
+    text-align: left;
+  }
+
+  .alineado_dcha>img {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+
+  .alineado_dcha>p,
+  .alineado_dcha>h4,
+  .alineado_dcha>.social-icon_member {
+    text-align: right;
+  }
+
+  .name-member {
+    text-align: left;
+  }
+}
+
+//QUINES SOMOS PARA LAPTOP//
+
+@media all and (min-width:1200px) {
+
+
+
+  .list-member {
+    width: 924px;
+    margin: auto;
+  }
+
+  .image_beatriz,
+  .image-member {
+    height: 278px;
+    width: 278px;
+    border-radius: 135px;
+  }
+
+  .member_team {
+    width: 100%;
+  }
+}
