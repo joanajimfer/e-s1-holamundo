@@ -40,25 +40,26 @@
 
                 <p>¿Tienes alguna duda o sugerencia? ¡Escríbenos! Te contestaremos lo más
                     rápido posible.</p>
-                <div class="notice">
-                <p>Todos los campos marcados con * son obligatorios</p>
+
+                <div>
+                <p class="notice">Todos los campos marcados con * son obligatorios</p>
                 </div>
 
             </section>
         </main class="main-contacto">
         <form action="/signup" method="post">
 
-        <label for="contacname">Nombre completo</label>
-        <input placeholder="Nombre..." type="text" name="contacname" required>
+        <label class="labelform required" for="contactname">Nombre completo</label>
+        <input placeholder="Nombre..." id="contactname" type="text" name="contactname" required>
 
-        <label for="email">e-mail</label>
-        <input placeholder="nombre.apellidos@mail.com" id="emailaddress" name="emailaddress" required>
+        <label class="labelform required" for="email">e-mail</label>
+        <input placeholder="nombre.apellidos@mail.com" id="email" type="email" name="emailaddress" required>
 
-        <label for="telephone">Teléfono</label>
-        <input placeholder="Ej: 123456789" id="telephone" name="telephone">
+        <label class="labelform" for="telephone">Teléfono</label>
+        <input placeholder="Ej: 123456789" id="telephone" type="tel" name="telephone">
 
-        <label for="message">Mensaje</label>
-        <input placeholder="¿Qué necesitas?" id="message" name="message" required>
+        <label class="labelform required" for="message">Mensaje</label>
+        <input placeholder="¿Qué necesitas?" id="message" type="text" name="message" required>
         
         <input type="submit" value= "Enviar">
         </form>

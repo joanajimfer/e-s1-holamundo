@@ -15,7 +15,7 @@
             <div class="contnab">
             <div class="nombre-grupo">
                 <a class="titulo" href="../index.html"> <h1 class="titulo">HOLA MUNDO</h1> </a>
-            </div>
+            </div> 
             <nav class="nav-header">
                 <ul class="lista-nav">
                     <li><a class="nav-item-fixed" href="../index.html#equipo">EQUIPO</a></li>
@@ -33,7 +33,28 @@
             <p>¿Tienes alguna duda o sugerencia? ¡Escríbenos! Te contestaremos lo más rápido posible.</p>
         </section>
         
-    </main class="main-contacto">
+        <div>
+            <p class="notice">Todos los campos marcados con * son obligatorios></p>
+        </div>
+
+        <form action="/signup" method="post">
+            <label class="labelform" for="fullname">Nombre Completo</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Nombre..." required>
+            
+            <label class="labelform" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" required>
+        
+
+            <label class="labelform" for="telephone">Teléfono</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
+
+            <label class="labelform" for="message">Mensaje</label>
+            <input type="text" id="message" name="message" placeholder="¿Qué necesitas?" required>
+        
+            <input class="button" type="submit" value="Enviar">
+        </form>
+         
+    </main>
     <hr class="footer-division">
     <footer class="main-footer-contacto">
             <div class="copyright-contacto">Hola Mundo &copy; 2018</div> 

@@ -7,6 +7,50 @@
     padding-top: 30px;
     padding-bottom: 15px;
 }
+
+.notice {
+    color: #54585a;
+    font-family: 'OpenSans-Regular'; 
+    font-size: 12px;
+    text-align: center;
+}
+#fullname, #email, #telephone, #message{
+    color: #54585a;
+    font-family: 'OpenSans-Regular'; 
+    font-size: 16px;
+    display: block;
+    width: calc(100% - 30px);
+    margin: 5px 15px 15px 15px;
+    height: 45px;
+    text-indent: 5px;
+}
+
+.button{
+    display: block;
+    width: calc(100% - 30px);
+    margin: 30px 15px 15px 15px;
+    height: 45px;
+    background-color: #099d8d;
+    color: white;
+    font-family: 'OpenSans-SemiBold'; 
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+
+}
+#message{
+    height: 105px;
+}
+
+.labelform{
+    color: #54585a;
+    font-family: 'OpenSans-Regular'; 
+    font-size: 14px;
+    margin-left: 15px;
+}
+ 
+
 .seccion-contacto{
     text-align:center;
     margin: 15px;
@@ -27,6 +71,7 @@
     color:#54585a;
     padding-bottom: 100px;
 }
+
 .copyright-contacto{
     font-family: "Open Sans";
     padding-top: 30px;
