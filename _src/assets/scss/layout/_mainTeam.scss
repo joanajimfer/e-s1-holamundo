@@ -1,82 +1,61 @@
 .main-equipo {
-
   width: 100%;
   padding-top: 99px;
-
 }
 
-.informacion-grupo {
+.information-group {
   margin: 30px;
 }
 
-#equipo {
+#team {
   text-align: center;
   font-size: 16px;
 }
 
-.titulo-equipo,
+.title-team,
 .woWeAre__title {
-  color: #099d8d;
+  color: $MainLettersColor;
   text-align: center;
   font-family: 'Rubik';
   font-weight: 500;
   font-size: 24px;
 }
 
-.dafo-for,
-.dafo-de {
-  color: #099d8d;
+.strengths-part,
+.weaknesses-part {
+  color: $MainLettersColor;
   text-align: center;
   font-family: 'Rubik';
   font-weight: 500;
   font-size: 22px;
-
 }
 
-.titulo-equipo,
+.title-team,
 h3 {
   margin-bottom: 15px;
 }
 
-.fortalezas-debilidades {
-  background-color: #f1f1f1;
+.stren-weak{
+  background-color: $MainSoftColor;
   padding-top: 0px;
 }
 
-.triangulo2 {
-  display: none;
-  position: relative;
-  left: 50%;
-  margin-left: -15px;
-  width: 0px;
-  height: 0px;
-  border-left: 20px solid transparent;
-  /* izquierda flecha */
-  border-right: 20px solid transparent;
-  /* derecha flecha */
-  border-top: 20px solid red;
-  /* base flecha y color*/
-  font-size: 0px;
-  line-height: 0px;
-}
-
-.dafo-for {
+.strengths-part{
   padding-top: 15px;
 }
 
-.fortalezas {
+.strengths {
   padding-left: 30px;
   padding-right: 30px;
-  color: #54585a;
-
+  color: $MainLetter;
 }
 
-.debilidades {
+.weaknesses {
   margin-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 45px;
-  color: #54585a;
+  color:$MainLetter;
 }
 
 .triangulo {
@@ -86,11 +65,11 @@ h3 {
   width: 0px;
   height: 0px;
   border-left: 20px solid transparent;
-  /* izquierda flecha */
+  /* left arrow */
   border-right: 20px solid transparent;
-  /* derecha flecha */
+  /* right arrow */
   border-top: 20px solid white;
-  /* base flecha y color*/
+  /* base arrow and color*/
   font-size: 0px;
   line-height: 0px;
 }
@@ -103,35 +82,39 @@ h3 {
   justify-content: center;
 }
 
-//MAIN-EQUIPO PARA TABLET//
+//MAIN-team for TABLET//
 @media all and (min-width:768px) {
 
-  .informacion-grupo {
+  .main-equipo{
+    padding:0;
+  }
+
+  .information-group {
     margin-top: 45px;
     margin-bottom: 60px;
     margin-left: 45px;
     margin-right: 45px;
   }
 
-  .titulo-equipo {
+  .title-team{
     margin-top: 45px;
     margin-bottom: 15px;
   }
 
-  .fortalezas-debilidades {
+  .stren-weak {
     display: flex;
     padding-top: 45px;
     padding-bottom: 60px;
     margin-top: 0px;
   }
 
-  .fortalezas {
+  .strengths {
     padding-right: 15px;
     padding-left: 45px;
     width: 50%;
   }
 
-  .debilidades {
+  .weaknesses {
     padding-left: 15px;
     margin-top: 0px;
     padding-right: 45px;
@@ -139,8 +122,8 @@ h3 {
     width: 50%;
   }
 
-  .dafo-de {
-    color: #099d8d;
+  .weaknesses-part {
+    color: $MainLettersColor;
     margin-top: 0px;
   }
 
@@ -148,7 +131,7 @@ h3 {
     display: none;
   }
 
-  .dafo-for {
+  .strengths-part {
     padding-top: 0px;
   }
 
@@ -159,11 +142,11 @@ h3 {
     width: 0px;
     height: 0px;
     border-left: 20px solid transparent;
-    /* izquierda flecha */
+    /* left arrow */
     border-right: 20px solid transparent;
-    /* derecha flecha */
+    /* right arrow */
     border-top: 20px solid white;
-    /* base flecha y color*/
+    /* base arrow and color*/
     font-size: 0px;
     line-height: 0px;
     z-index: 10;
@@ -171,34 +154,32 @@ h3 {
   }
 }
 
-//MAIN-EQUIPO PARA LAPTOP//
+//MAIN-EQUIPO FOR LAPTOP//
 @media all and (min-width:1200px) {
 
-  .informacion-grupo {
+  .information-group{
     max-width: 601px;
-    position: relative;
-    left: 50%;
-    margin-left: -300px;
+    margin: 45px auto 60px;
   }
 
-  .fortalezas {
+  .strengths{
     padding-right: 22px;
     padding-left: 0px;
     width: 50%;
   }
 
-  .debilidades {
+  .weaknesses {
     padding-left: 23px;
     padding-right: 0px;
     width: 50%;
   }
 
-  .fortalezas-debilidades {
+  .stren-weak {
     width: 924px;
     margin: auto;
   }
 
-  .fondo-fort-deb {
+  .back-stren-weak {
     background-color: #f1f1f1;
     padding-left: 45px;
     padding-right: 45px;

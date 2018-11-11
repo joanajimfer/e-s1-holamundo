@@ -8,7 +8,7 @@
 }
 
 .image-member {
-  @include memberImage();
+  @include memberImage;
 }
 
 .name-member {
@@ -18,7 +18,7 @@
 }
 
 .information-member {
-  color: $MainLetterInformation;
+  color: $MainLetter;
   font-size: 16px;
 }
 
