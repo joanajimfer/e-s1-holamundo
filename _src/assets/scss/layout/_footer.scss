@@ -2,7 +2,7 @@
   font-family: "Open Sans";
   padding-top: 30px;
   padding-bottom: 20px;
-  color: #b8b8b9;
+  color: $FooterColor;
   font-size: 14px;
   text-align: center;
 }
@@ -14,13 +14,13 @@
 
 .footer-division {
   position: center;
-  color: #b8b8b9;
+  color:$FooterColor;
 }
 
 .foot-list {
   list-style: none;
   font-family: "Open Sans", bold;
-  color: #b8b8b9;
+  color:$FooterColor;
   text-align: center;
   font-size: 14px;
 }
@@ -43,7 +43,7 @@
 
 .foot-a {
   display: inline-block;
-  color: #b8b8b9;
+  color: $FooterColor;
   font-weight: bold;
   padding: 0;
   text-decoration: none;
