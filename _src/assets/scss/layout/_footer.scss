@@ -1,9 +1,9 @@
 .copyright {
-  font-family: "Open Sans";
+  font-family: $FooterFont;
   padding-top: 30px;
   padding-bottom: 20px;
   color: $FooterColor;
-  font-size: 14px;
+  font-size: $FooterFontSize;
   text-align: center;
 }
 
@@ -19,10 +19,11 @@
 
 .foot-list {
   list-style: none;
-  font-family: "Open Sans", bold;
-  color:$FooterColor;
+  font-family: $FooterFont, bold;
+  color:#54585a;
+  font-weight: 600;
   text-align: center;
-  font-size: 14px;
+  font-size: $FooterFontSize;
 }
 
 .footer-img {
