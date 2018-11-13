@@ -8,7 +8,7 @@
 }
 
 .image-member {
-  @include memberImage;
+  @include memberImage();
 }
 
 .name-member {
@@ -43,11 +43,11 @@ span {
 
 @media all and (min-width:768px) {
 
-  #woWeAre {
+  #whoWeAre {
     padding: 0 45px 0 45px;
   }
 
-  .woWeAre__title {
+  .whoWeAre__title {
     margin: 45px 0 45px 0;
   }
 
