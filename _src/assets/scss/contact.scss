@@ -1,0 +1,68 @@
+//mixing//
+@import 'core/mixins';
+
+//variables//
+@import 'core/variables';
+
+
+
+//GENERAL//
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+li {
+  display: inline-block;
+}
+
+//PAGINA-CONTACTO//
+@import 'layout/contactpage';
+
+//HEADER//
+@import 'layout/headerContact';
+
+//MAIN-EQUIPO//
+@import 'layout/mainTeam';
+
+//MAIN-MIEMBROS
+@import 'layout/whoWeAre';
+
+//FOOTER//
+@import 'layout/footer';
+
+
+
+
+
+
+/*points reference links*/
+
+.point-team {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: -14%;
+}
+
+.point-whoWeAre {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: -4.5%;
+}
+
+section {
+  position: relative;
+}
+
+

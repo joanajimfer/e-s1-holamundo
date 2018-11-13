@@ -4,8 +4,15 @@
   font-family: 'Rubik';
   color: #099d8d;
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
+  font-size: 24px;
   padding-bottom: 15px;
+}
+.main-intro {
+  font-size: 16px;
+  color: #54585a;
+  min-width: 290px;
+  font-family: 'Open Sans'; 
 }
 
 .notice {
@@ -13,11 +20,16 @@
     font-family: 'OpenSans-Regular'; 
     font-size: 12px;
     text-align: center;
+    margin-top: 36px;
+    margin-bottom: 58px;
+}
+.asterisk {
+color: $MainLettersColor;
 }
 #fullname, #email, #telephone, #message{
     color: #54585a;
     font-family: 'OpenSans-Regular'; 
-    font-size: 16px;
+    font-size: 14px;
     display: block;
     width: calc(100% - 30px);
     margin: 5px 15px 15px 15px;
@@ -58,44 +70,10 @@
    
 }
 
-.hero-contacto {
-  width: 100%;
-  background-image: url(../images/contacto.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  top: 0;
-}
-
 .main-contacto {
-  width: 100%;
+  margin: 80px; //esta al azar para separarlo, luego lo arreglo cuando el header sea definitivo//
   color: #54585a;
   padding-bottom: 100px;
-}
-
-.copyright-contacto{
-    font-family: "Open Sans";
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color:#b8b8b9;
-    opacity: 0.5;
-    font-size: 14px;
-    text-align: center;
-}
-
-.foot-list-contacto {
-  display: block;
-}
-
-.main-footer-contacto {
-  text-align: center
-}
-
-.footer-logo-contact {
-  width: 119.5px;
-  height: 45px;
-  margin: 30px 30px 45px 30px;
 }
 
 //PAGINA CONTACTO PARA TABLET//   
