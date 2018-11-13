@@ -1,128 +1,104 @@
-.image_beatriz {
-  width: 180px;
-  height: 180px;
-  margin-top: 25px;
-  margin-bottom: 10px;
-  border-radius: 90px;
-  border: 5px solid #f1f1f1;
+#whoWeAre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0px 105px 1fr;
 }
 
-.image-member {
-  @include memberImage();
-}
-
-.name-member {
-  margin: 15px;
-  color: black;
-  font-size: 20px;
-}
-
-.information-member {
-  color: $MainLetter;
-  font-size: 16px;
+.whoWeAre__title {
+  grid-column: span 1;
+  grid-row: span 1;
+  font-size: 24px;
+  color: $MainLettersColor;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 500;
+  margin-top: 45px;
 }
 
 .list-member {
-  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding-bottom: 45px;
+  @include members();
+}
+
+.member_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.name-member {
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.image-member {
+  @include memberImage;
+}
+
+.member1 {
+  img {
+    margin-top: 0;
+  }
+}
+
+.information-member {
+  font-size: 16px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
 .social-icon_member {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 10px;
-}
-
-span {
-  position: relative;
-  bottom: 5px;
-  margin: 10px;
+  font-size: 8px;
+  line-height: 30px;
+  
+  li{
+    padding: 0 10px;
+  }
 }
 
 //MAIN-WHOWEARE for TABLET//
 
 @media all and (min-width:768px) {
 
-  #whoWeAre {
-    padding: 0 45px 0 45px;
+  .list-member {
+    padding: 0 45px 45px 45px;
   }
 
-  .whoWeAre__title {
-    margin: 45px 0 45px 0;
+  .left {
+    display: grid;
+    grid-template-columns: 205px 1fr;
+    grid-template-rows: 45px auto auto;
+    padding-bottom: 60px;
+    @include memberstabletLeft();
+    @include memberLeft(); 
   }
 
-  .information-member {
-    margin-bottom: 15px;
+  .right {
+    display: grid;
+    grid-template-columns: 1fr 205px;
+    grid-template-rows: 45px auto auto;
+    padding-bottom: 60px;
+    @include memberstabletRight();
+    @include memberRight(); 
   }
 
-  .image_beatriz {
-    margin-right: 30px;
-    height: 205px;
-    width: 205px;
-    border-radius: 103px;
-    margin-bottom: 40px;
-    /* para evitar que los iconos sociales caigan debajo" */
-  }
-
-  .image-member {
-    height: 205px;
-    width: 205px;
-    border-radius: 103px;
-    margin-bottom: 0px;
-  }
-
-  .member_team {
-    margin-bottom: 60px;
-  }
-
-  .alineado_izq>img {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 0px;
-    margin-top: 0;
-  }
-
-  .alineado_izq>p,
-  .alineado_izq>.social-icon_member {
-    text-align: left;
-  }
-
-  .alineado_dcha>img {
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 0px;
-  }
-
-  .alineado_dcha>p,
-  .alineado_dcha>h4,
-  .alineado_dcha>.social-icon_member {
-    text-align: right;
-  }
-
-  .name-member {
-    text-align: left;
-  }
 }
 
 //QUINES SOMOS PARA LAPTOP//
 
 @media all and (min-width:1200px) {
+.list-member{
+  padding: 0;
+  width: 924px;
+  margin: auto;
+}
 
+.information-member{
+  width: 439px;
+}
 
-
-  .list-member {
-    width: 924px;
-    margin: auto;
-  }
-
-  .image_beatriz,
-  .image-member {
-    height: 278px;
-    width: 278px;
-    border-radius: 135px;
-  }
-
-  .member_team {
-    width: 100%;
-  }
 }
