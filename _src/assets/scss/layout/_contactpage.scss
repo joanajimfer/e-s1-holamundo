@@ -4,8 +4,15 @@
   font-family: 'Rubik';
   color: #099d8d;
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
+  font-size: 24px;
   padding-bottom: 15px;
+}
+.main-intro {
+  font-size: 16px;
+  color: #54585a;
+  min-width: 290px;
+  font-family: 'Open Sans'; 
 }
 
 .notice {
@@ -13,11 +20,16 @@
     font-family: 'OpenSans-Regular'; 
     font-size: 12px;
     text-align: center;
+    margin-top: 36px;
+    margin-bottom: 58px;
+}
+.asterisk {
+color: $MainLettersColor;
 }
 #fullname, #email, #telephone, #message{
     color: #54585a;
     font-family: 'OpenSans-Regular'; 
-    font-size: 16px;
+    font-size: 14px;
     display: block;
     width: calc(100% - 30px);
     margin: 5px 15px 15px 15px;
@@ -69,7 +81,7 @@
 }
 
 .main-contacto {
-  width: 100%;
+  margin: 80px; //esta al azar para separarlo, luego lo arreglo cuando el header sea definitivo//
   color: #54585a;
   padding-bottom: 100px;
 }

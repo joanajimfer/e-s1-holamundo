@@ -19,25 +19,25 @@
   <main class="main-contacto">
     <section class="seccion-contacto">
       <h1 class="titulo-contacto">CONTACTO</h1>
-      <p>¿Tienes alguna duda o sugerencia? ¡Escríbenos! Te contestaremos lo más rápido posible.</p>
+      <p class="main-intro">¿Tienes alguna duda o sugerencia? ¡Escríbenos! Te contestaremos lo más rápido posible.</p>
     </section>
 
     <div>
-        <p class="notice">Todos los campos marcados con * son obligatorios></p>
+        <p class="notice">Todos los campos marcados con * son obligatorios</p>
     </div>
 
     <form action="/signup" method="post">
-        <label class="labelform" for="fullname">Nombre Completo</label>
+        <label class="labelform" for="fullname">Nombre completo</label> <span class="asterisk">*</span>
         <input type="text" id="fullname" name="fullname" placeholder="Nombre..." required>
         
-        <label class="labelform" for="email">Email</label>
+        <label class="labelform" for="email">Email</label> <span class="asterisk">*</span>
         <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" required>
     
 
         <label class="labelform" for="telephone">Teléfono</label>
         <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
 
-        <label class="labelform" for="message">Mensaje</label>
+        <label class="labelform" for="message">Mensaje</label> <span class="asterisk">*</span>
         <input type="text" id="message" name="message" placeholder="¿Qué necesitas?" required>
     
         <input class="button" type="submit" value="Enviar">
