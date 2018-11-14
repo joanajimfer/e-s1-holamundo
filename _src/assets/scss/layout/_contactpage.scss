@@ -34,7 +34,7 @@
 #telephone,
 #message {
   color: $colorFont;
-  font-family: 'OpenSans-Regular';
+  font-family: 'Open Sans';
   font-size: 14px;
   display: block;
   width: calc(100% - 30px);
@@ -43,6 +43,8 @@
   margin-right: auto;
   height: 45px;
   text-indent: 5px;
+  margin-bottom: 20px;
+  border: 1px solid $FooterColor;
 }
 
 .button {
@@ -67,7 +69,7 @@
 
 .labelform {
   color: $colorFont;
-  font-family: 'OpenSans-Regular';
+  font-family: 'Open Sans';
   font-size: 14px;
   margin-left: 15px;
 }
@@ -75,9 +77,8 @@
 
 .seccion-contacto {
   text-align: center;
-  margin: 15px;
-  margin-top: 0px;
-
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-contacto {
@@ -118,7 +119,13 @@
   h1 {
     padding: 15px;
   }
-
+ .button {
+   width: 206px;
+   margin-top: 30px;
+   margin-bottom: 60px;
+   margin-right: 0px;
+   margin-left: 220px;
+ }
   //main//
 
 
@@ -127,7 +134,7 @@
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 135px;
+    margin-bottom: 60px;
     padding: 0px;
   }
 
@@ -216,8 +223,13 @@
   }
 
   //MAIN//
-
+  .button {
+    width: 278px;
+    margin-bottom: 120px;
+    margin-left: 335px;
+  }
   .main-contacto {
+    margin-bottom: 0px;
     width: 610px;
   }
 
