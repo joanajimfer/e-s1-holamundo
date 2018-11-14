@@ -57,12 +57,18 @@
 
                 <input type="text"
                 id="fullname" name="fullname" placeholder="Nombre..." required>
-                <label class="labelform" for="email">Email</label> <span class="asterisk">*</span>
+                <div class="form-tel-mail">
+                    <div class="form-mail">
+                        <label class="labelform" for="email">Email</label> <span class="asterisk">*</span>
 
-                <input type="email" id="email"
-                name="email" placeholder="nombre.apellidos@mail.com" required>
-                <label class="labelform" for="telephone">Teléfono</label>
-                <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
+                        <input type="email" id="email"
+                        name="email" placeholder="nombre.apellidos@mail.com" required>
+                    </div>
+                    <div class="form-tel">
+                        <label class="labelform labeltel" for="telephone">Teléfono</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
+                    </div>
+                </div>
                 <label class="labelform" for="message">Mensaje</label> <span class="asterisk">*</span>
 
                 <input type="text" id="message"

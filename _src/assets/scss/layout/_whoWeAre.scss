@@ -37,6 +37,7 @@
 
 .image-member {
   @include memberImage();
+  transition: box-shadow ease 1s, transform ease 1s;
 }
 
 .member1 {
@@ -109,5 +110,9 @@
   .social-icon_member i:hover {
     color: $colorFont;
   }
+.image-member:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -50px);
+}
 
 }
