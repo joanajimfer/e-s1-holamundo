@@ -93,10 +93,11 @@
 @media all and (min-width:768px) {
 
   //HEADER//
+ 
 
   .nav-fixed {
     justify-content: space-between;
-    DISPLAY: flex;
+    display: flex;
     align-items: center;
     background-color: rgba(9, 157, 141, 0.9);
   }
@@ -109,7 +110,7 @@
   .nav-header {
     background-color: rgba (0, 0, 0, 0);
     height: 100%;
-    margin-right: 15px;
+    margin-right: 30px;
   }
 
   .nav-item-fixed,
@@ -122,10 +123,10 @@
 
   .main-contacto {
     min-width: 442px;
-    margin-top: 90px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 135px;
+    margin-bottom: 60px;
     padding: 0px;
   }
 
