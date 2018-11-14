@@ -1,6 +1,6 @@
 /*PAGINA CONTACTO*/
 
-.titulo-contacto{
+.titulo-contacto {
   color: $MainLettersColor;
   text-align: center;
   font-family: 'Rubik';
@@ -38,7 +38,9 @@
   font-size: 14px;
   display: block;
   width: calc(100% - 30px);
-  margin: 5px 15px 15px 15px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   height: 45px;
   text-indent: 5px;
 }
@@ -55,6 +57,7 @@
   font-size: 16px;
   border-radius: 5px;
   border: none;
+  text-transform: uppercase;
 
 }
 
@@ -170,7 +173,7 @@
 
 @media all and (min-width:1200px) {
 
-  
+
 
 
   //main//
@@ -189,7 +192,7 @@
 
   //footer//
 
-  
+
 
   /*CONTACTO...........*/
   //footer contact------------------------//
@@ -223,8 +226,35 @@
     display: block;
   }
 
-  //FOOTER//
+  .form-tel-mail {
+    display: flex;
+    width: 610px;
+    justify-content: space-between;
+    margin: 0px;
+  }
 
+  #email {
+    width: 395px;
+    margin: 0px;
+  }
 
+  #telephone {
+    width: 162px;
+    margin: 0px;
+    margin-left: 44px;
+  }
+
+  #fullname,
+  #message {
+    width: 610px;
+  }
+
+  .labelform {
+    margin-left: auto;
+  }
+
+  .labeltel {
+    margin-left: 44px;
+  }
 
 }

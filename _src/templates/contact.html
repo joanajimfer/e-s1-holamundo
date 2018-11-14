@@ -23,29 +23,31 @@
     </section>
 
     <div>
-        <p class="notice">Todos los campos marcados con * son obligatorios</p>
+      <p class="notice">Todos los campos marcados con * son obligatorios</p>
     </div>
 
     <form action="/signup" method="post">
-        <label class="labelform" for="fullname">Nombre completo</label> <span class="asterisk">*</span>
-        <input type="text" id="fullname" name="fullname" placeholder="Nombre..." required>
-        <fieldset class="form-tel-mail">
-        <label class="labelform" for="email">Email</label> <span class="asterisk">*</span>
-        <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" required>
-    
+      <label class="labelform" for="fullname">Nombre completo</label> <span class="asterisk">*</span>
+      <input type="text" id="fullname" name="fullname" placeholder="Nombre..." required>
+      <div class="form-tel-mail">
+        <div class="form-mail">
+          <label class="labelform" for="email">Email</label> <span class="asterisk">*</span>
+          <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" required> </div>
 
-        <label class="labelform" for="telephone">Teléfono</label>
-        <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
-      </fieldset>
-        <label class="labelform" for="message">Mensaje</label> <span class="asterisk">*</span>
-        <input type="text" id="message" name="message" placeholder="¿Qué necesitas?" required>
-    
-        <input class="button" type="submit" value="Enviar">
+        <div class="form-tel">
+          <label class="labelform labeltel" for="telephone">Teléfono</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789">
+        </div>
+      </div>
+      <label class="labelform" for="message">Mensaje</label> <span class="asterisk">*</span>
+      <input type="text" id="message" name="message" placeholder="¿Qué necesitas?" required>
+
+      <input class="button" type="submit" value="Enviar">
     </form>
 
   </main>
 
-<partial src="_footerContact.html" label="Footer"></partial>
+  <partial src="_footerContact.html" label="Footer"></partial>
 </body>
 
 </html>
