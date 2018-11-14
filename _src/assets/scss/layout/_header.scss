@@ -91,7 +91,7 @@ li {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    background-color: #099d8d;
+    background-color:$MainLettersColor;
     height: 60px;
     margin-right: 45px;
   }
@@ -119,11 +119,11 @@ li {
   .claim {
     padding: 15px 30px;
     position: absolute;
-    top: 355px;
-    width: 441px;
+    top: 320px;
+    max-width: 441px;
     margin-left: 45px;
     background-color: rgba(255, 255, 255, 0.8);
-  }
+}
 }
 
 
@@ -131,9 +131,13 @@ li {
 
 @media all and (min-width:1200px) {
 
+  #hero{
+    height: 550px;
+  }
+
 
   .nav-item-fixed:hover, .title:hover{
-    color:#54585a;
+    color:$colorFont;
   }
 
   .cont-nav {
@@ -164,5 +168,6 @@ li {
 
   .claim {
     margin-left: 0px;
+    top: 483px;
   }
 }
