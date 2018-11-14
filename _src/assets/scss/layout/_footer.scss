@@ -1,3 +1,4 @@
+
 .copyright {
   font-family: $FooterFont;
   padding-top: 30px;
@@ -101,6 +102,11 @@
 @media all and (min-width:1200px) {
   .foot-a:hover {
     color:#54585a;
+  }
+
+  .footer-main {
+    width: 924px;
+    margin: auto;
   }
 
 }

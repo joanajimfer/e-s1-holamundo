@@ -1,13 +1,14 @@
 /*PAGINA CONTACTO*/
 
-.titulo-contacto {
-  font-family: 'Rubik';
-  color: #099d8d;
+.titulo-contacto{
+  color: $MainLettersColor;
   text-align: center;
-  margin-top: 30px;
+  font-family: 'Rubik';
+  font-weight: 500;
   font-size: 24px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
+
 .main-intro {
   font-size: 16px;
   color: #54585a;
@@ -72,7 +73,7 @@ color: $MainLettersColor;
 
 .main-contacto {
   min-width: 320px;
-  margin-top: 80px; //esta al azar para separarlo, luego lo arreglo cuando el header sea definitivo//
+  margin-top: 30px; //esta al azar para separarlo, luego lo arreglo cuando el header sea definitivo//
   color: #54585a;
   padding-bottom: 100px;
 }
@@ -156,27 +157,7 @@ color: $MainLettersColor;
 
 @media all and (min-width:1200px) {
 
-  .titulo {
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-
-  .hero-contacto {
-    height: 400px;
-  }
-
-  .titulo-contacto {
-    padding-top: 40px;
-  }
-
-  .nombre-grupo {
-    margin-left: 0%;
-  }
-
-
-  .nav-header {
-    margin-right: 0%;
-  }
+  
 
 
   //main//
@@ -191,21 +172,7 @@ color: $MainLettersColor;
 
   //footer//
 
-  .main-footer-contacto {
-    width: 924px;
-    margin: auto;
-    padding: 30px 0 60px 0;
-  }
-
-  .footer-logo-contact {
-    margin: 15px 0px 0px 0px;
-  }
-
-  .footer-main {
-    width: 924px;
-    margin: auto;
-  }
-
+  
 
   /*CONTACTO...........*/
   //footer contact------------------------//
@@ -241,20 +208,6 @@ color: $MainLettersColor;
 
   //FOOTER//
 
-  .main-footer-contacto {
-    width: 924px;
-    margin: auto;
-    padding: 30px 0 60px 0;
-  }
 
-  .footer-logo-contact {
-    margin: 15px 0px 0px 0px;
-  }
-
-
-  .footer-main {
-    width: 924px;
-    margin: auto;
-  }
 
 }
