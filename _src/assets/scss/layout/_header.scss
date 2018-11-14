@@ -17,7 +17,6 @@
   z-index: 99;
   font-family: $HeaderLettersFont;
   font-weight: $HeaderLettersWeight;
-  background-color: rgba(9, 157, 141, 0.9);
 }
 
 .header-group-name {
@@ -27,6 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(9, 157, 141, 0.9);
 }
 
 li {
@@ -104,6 +104,7 @@ li {
     width: 50%;
     justify-content: space-between;
     margin-left:45px;
+    background-color: rgba(20, 217, 196, 0);
   }
 
   .header-nav-list {

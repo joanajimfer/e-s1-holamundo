@@ -51,16 +51,16 @@
   text-align: center;
 }
 
-.social-icon_member i{
- color:$MainLettersColor;
+.social-icon_member i {
+  color: $MainLettersColor;
 }
 
 
 .social-icon_member {
   font-size: 8px;
   line-height: 30px;
-  
-  li{
+
+  li {
     padding: 0 10px;
   }
 }
@@ -79,7 +79,7 @@
     grid-template-rows: 45px auto auto;
     padding-bottom: 60px;
     @include memberstabletLeft();
-    @include memberLeft(); 
+    @include memberLeft();
   }
 
   .right {
@@ -88,7 +88,7 @@
     grid-template-rows: 45px auto auto;
     padding-bottom: 60px;
     @include memberstabletRight();
-    @include memberRight(); 
+    @include memberRight();
   }
 
 }
@@ -96,20 +96,18 @@
 //QUINES SOMOS PARA LAPTOP//
 
 @media all and (min-width:1200px) {
-.list-member{
-  padding: 0;
-  width: 924px;
-  margin: auto;
-}
+  .list-member {
+    padding: 0;
+    width: 924px;
+    margin: auto;
+  }
 
-.information-member{
-  width: 439px;
-}
+  .information-member {
+    width: 439px;
+  }
 
-.social-icon_member i:hover{
-  color:$colorFont;
- }
-
-
+  .social-icon_member i:hover {
+    color: $colorFont;
+  }
 
 }
