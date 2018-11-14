@@ -91,21 +91,19 @@ li {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    background-color: #099d8d;
+    background-color:$MainLettersColor;
     height: 60px;
     margin-right: 45px;
   }
 
   .nav-header {
     background-color: rgba(20, 217, 196, 0);
-    margin-right: 30px;
-    
   }
 
   .header-group-name {
     width: 50%;
     justify-content: space-between;
-    margin-left: 45px;
+    margin-left:45px;
   }
 
   .header-nav-list {
@@ -115,11 +113,9 @@ li {
     margin-right: 45px;
     height: 60px;
   }
-
-  .cont-claim {
-    position: relative;
-  }
-
+.cont-claim{
+  position:relative;
+}
   .claim {
     padding: 15px 30px;
     position: absolute;
@@ -140,9 +136,8 @@ li {
   }
 
 
-  .nav-item-fixed:hover,
-  .title:hover {
-    color: #54585a;
+  .nav-item-fixed:hover, .title:hover{
+    color:$colorFont;
   }
 
   .cont-nav {

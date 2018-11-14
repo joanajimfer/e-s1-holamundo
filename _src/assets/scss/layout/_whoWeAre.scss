@@ -52,7 +52,7 @@
 }
 
 .social-icon_member i{
- color:#099d8d;
+ color:$MainLettersColor;
 }
 
 
@@ -70,7 +70,7 @@
 @media all and (min-width:768px) {
 
   .list-member {
-    padding: 0 45px 0px 45px;
+    padding: 0 45px 45px 45px;
   }
 
   .left {
@@ -107,7 +107,7 @@
 }
 
 .social-icon_member i:hover{
-  color:#54585a;
+  color:$colorFont;
  }
 
 
