@@ -1,3 +1,28 @@
+@keyframes botar{
+  0% {top:auto; animation-timing-function:ease-in;}
+  30% {top:200px; animation-timing-function:ease-out;}
+  45% {top:100px; animation-timing-function:ease-in;}
+  60% {top:200px; animation-timing-function:ease-out;}
+  68% {top:150px; animation-timing-function:ease-in;}
+  76% {top:200px; animation-timing-function:ease-out;}
+  80% {top:175px; animation-timing-function:ease-in;}
+  84% {top:200px; animation-timing-function:ease-out;}
+  86% {top:188px; animation-timing-function:ease-in;}
+  88% {top:200px; animation-timing-function:ease-out;}
+  87% {top:194px; animation-timing-function:ease-in;}
+  88% {top:200px; animation-timing-function:ease-out;}
+  100% {top:200px;}
+ }
+
+
+
+
+
+
+
+
+
+
 .main-equipo {
   width: 100%;
   padding-top: 99px;
