@@ -57,7 +57,7 @@
   flex-direction: column;
 }
 
-//FOOTER PARA TABLET//
+//FOOTER for TABLET//
 @media all and (min-width:768px) {
 
   .footer-main {
@@ -93,4 +93,14 @@
   .foot-list {
     text-align: right;
   }
+}
+
+
+//FOOTER for laptop/
+
+@media all and (min-width:1200px) {
+  .foot-a:hover {
+    color:#54585a;
+  }
+
 }

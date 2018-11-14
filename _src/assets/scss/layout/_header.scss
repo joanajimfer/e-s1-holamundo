@@ -1,7 +1,7 @@
 /*HEADER*/
 #hero {
   width: 100%;
-  background-image: url(../images/team.jpg);
+  background-image: url(../images/team1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,6 @@
   top: 0;
 }
 
- 
 
 .nav-fixed {
   position: fixed;
@@ -123,9 +122,15 @@
   }
 }
 
+
 //HEADER LAPTOP//
 
 @media all and (min-width:1200px) {
+
+
+  .nav-item-fixed:hover, .title:hover{
+    color:#54585a;
+  }
 
   .cont-nav {
     width: 924px;
