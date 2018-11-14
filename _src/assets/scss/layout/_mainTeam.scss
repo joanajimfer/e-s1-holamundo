@@ -12,7 +12,13 @@
   font-size: 16px;
 }
 
-.title-team,
+.title-team{
+  color:$HeaderBackgroundColor;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 24px;
+}
 .whoWeAre__title {
   color: $MainLettersColor;
   text-align: center;
@@ -47,7 +53,7 @@ h3 {
 .strengths {
   padding-left: 30px;
   padding-right: 30px;
-  color: #54585a;
+  color: $colorFont;
 }
 
 .weaknesses {
@@ -55,7 +61,7 @@ h3 {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 45px;
-  color:#54585a;
+  color:$colorFont;
 }
 
 .triangulo {

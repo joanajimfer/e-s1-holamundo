@@ -91,7 +91,7 @@ li {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    background-color: #099d8d;
+    background-color:$MainLettersColor;
     height: 60px;
     margin-right: 45px;
   }
@@ -133,7 +133,7 @@ li {
 
 
   .nav-item-fixed:hover, .title:hover{
-    color:#54585a;
+    color:$colorFont;
   }
 
   .cont-nav {
