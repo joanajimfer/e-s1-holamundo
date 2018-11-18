@@ -1,0 +1,43 @@
+.button-Hero {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border: solid $MainLettersColor 3px;
+  background-color: white;
+  color: $MainLettersColor;
+  font-size: 22px;
+  position: absolute;
+  display: none;
+  transition: box-shadow ease .2s;
+  outline: none;
+}
+
+.button-Hero:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: $MainLettersColor;
+
+}
+
+@media all and (min-width:768px) {
+
+  .button-Hero {
+    bottom: 15px;
+    display: inline;
+  }
+
+  .btn-left {
+    bottom: 15px;
+    right: 110px;
+  }
+
+  .btn-center {
+    bottom: 15px;
+    right: 70px;
+  }
+
+  .btn-right {
+    bottom: 15px;
+    right: 30px;
+  }
+
+}

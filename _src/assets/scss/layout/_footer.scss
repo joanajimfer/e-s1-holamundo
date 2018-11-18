@@ -96,7 +96,36 @@
   }
 }
 
+.dedication{
+  background-color:rgba(9, 157, 141, 0.9);
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  transition: height ease 2s, width ease 2s, overflow ease 2s;
+  &:hover{
+      height: 169px;
+      width: 200px;
+      overflow: visible;
+  }
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 9px;
+  text-align: center;
+}
 
+.dedication-text{
+   color:white;
+   font-size: 19px;
+}
+
+.dedication-heart{
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 30px;
+}
 //FOOTER for laptop/
 
 @media all and (min-width:1200px) {
