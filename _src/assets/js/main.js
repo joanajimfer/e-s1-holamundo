@@ -1,10 +1,20 @@
 $(document).ready(function () {
 
-  $("#hero").click(function () {
+var backgroundImages = ['url(assets/images/teamclass.jpg)','url(assets/images/teamwork.jpg)'];
 
-    $("#hero").css({
-      'background-image': 'url(assets/images/contacto1.jpg)'
-    });
+function back(element){
+  return  $("#hero").css({
+    'background-image': "element"
+  });
+ 
+};
+
+
+
+  $("#hero").click(function(elementos) {
+    back(elementos);
 
   })
+
+
 });
