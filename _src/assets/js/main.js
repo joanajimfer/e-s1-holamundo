@@ -2,23 +2,24 @@ $(document).ready(function () {
 
 
 
-  
+  var images = ["url(../assets/images/team1.jpg)", "url(../assets/images/teamclass.jpg)", "url(../assets/images/teamwork.jpg)"]
+  var index = 0;
 
-  $(".btn-left").on("click",function(){
-      $("#hero").css("background-image","url(../assets/images/team1.jpg)");
+  images[2]
+
+  $(".btn-right").on("click",function(){
+      index++;
+      var newUrl = images[index];
+      $("#hero").css("background-image",newUrl);
     });
 
 
-    $(".btn-center").on("click",function(){
-      $("#hero").css("background-image","url(../assets/images/teamclass.jpg)");
+
+    $(".btn-left").on("click",function(){
+      index--;
+      var newUrl = images[index];
+      $("#hero").css("background-image",newUrl);
     });
-
-
-
-    $(".btn-right").on("click",function(){
-      $("#hero").css("background-image","url(../assets/images/teamwork.jpg)");
-    });
-
 
 
     

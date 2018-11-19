@@ -1,20 +1,23 @@
 .button-Hero {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 25px;
   border: solid $MainLettersColor 3px;
-  background-color: white;
-  color: $MainLettersColor;
-  font-size: 22px;
+  background-color: $MainLettersColor;
+  color:rgba(255, 255, 255, 0.9);
+  font-size: 20px;
   position: absolute;
   display: none;
   transition: box-shadow ease .2s;
+  font-weight: bold;
   outline: none;
+  padding-bottom: 10px;
 }
 
 .button-Hero:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: $MainLettersColor;
+  background-color:rgba(255, 255, 255, 0.9);
+  color:$MainLettersColor;
 
 }
 
